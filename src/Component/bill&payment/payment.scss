@@ -1,0 +1,50 @@
+.online {
+    .card {
+        margin: 0px 0px 0px 50px;
+        padding: 15px 40px;
+        display: flex;
+
+        .bill {
+            display: flex;
+            flex-wrap: wrap;
+
+            .content {
+                margin-right: 20%;
+                #link{
+                    text-decoration: none;
+                    color: #4799e5;
+                }
+                p{
+                    width:300px;
+                }
+            }
+        .option {
+                .product {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    gap: 20px;
+
+                    .online {
+
+                        text-align: center;
+
+                        .img {
+                            border: 1px solid #ddd;
+                            border-radius: 10px;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media(max-width:991px){
+.online{
+    .card{
+        margin-left: 10px;
+    }
+}
+}
